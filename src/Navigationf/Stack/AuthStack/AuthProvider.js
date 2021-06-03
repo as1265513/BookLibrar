@@ -1,14 +1,10 @@
 import React, { useState, createContext } from "react";
 
 import * as firebase from "firebase";
-import * as Google from "expo-google-app-auth";
 
-import * as AppAuth from "expo-app-auth";
-
-import * as GoogleSignIn from "expo-google-sign-in";
 
 import { storage, db } from "./../../../../firebase";
-import { Image } from "native-base";
+
 
 export const AuthContext = createContext();
 

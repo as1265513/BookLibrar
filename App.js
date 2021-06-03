@@ -54,17 +54,14 @@ class Main extends Component{
     
     const {currentScreen}=this.state;
 
-    let mainScreen=currentScreen === 'SplashScreen' ? <SplashScreen /> : <Starter />
+    let mainScreen= currentScreen === 'SplashScreen' ? <SplashScreen /> : <Starter />
     return mainScreen;
   }
 
 }
 
 export default function App() {
-  useEffect(()=>{
-    
-  
-  },[])
+ 
     
     
   return (
